@@ -1,0 +1,12 @@
+# algo folder
+algo/venv
+
+# backend folder
+backend/venv
+backend/project/app/migrations/__pycache__/
+backend/project/app/__pycache__/
+backend/project/project/__pycache__/
+
+# flask-tutorial folder
+flask-tutorial/venv
+flask-tutorial/flaskr/__pycache__/

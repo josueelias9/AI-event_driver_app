@@ -1,0 +1,32 @@
+version: "3.7"
+
+services:
+  app3:
+    image: flask-image
+    build: ./flask-tutorial
+    container_name: flask-container
+    ports:
+      - 5000:8080
+
+#  app1:
+#    image: django-image
+#    build: ./backend
+#    container_name: django-container
+#    ports:
+#      - 8000:8000
+#
+#  app2:
+#    image: react-image
+#    build: ./frontend
+#    container_name: react-container
+#    ports:
+#      - 3000:3000
+#
+#  redis:
+#    image: redis:6.2.6
+#    container_name: redis_container
+#    ports:
+#      - "6379:6379"
+
+
+
