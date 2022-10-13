@@ -28,4 +28,5 @@ WORKDIR /usr/src/app/backend/project
 EXPOSE 8000
 
 # run server
-CMD [ "python3", "manage.py", "runserver", "0.0.0.0:8000" ]
+#CMD [ "python3", "manage.py", "runserver", "0.0.0.0:8000" ]
+CMD ["python3", "mantener_servidor.py"]

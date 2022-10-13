@@ -3571,6 +3571,19 @@
 							"width": 60,
 							"height": 38,
 							"text": "channel: publi_1"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGDyq334hn6ZYg=",
+							"_parent": {
+								"$ref": "AAAAAAGC6KHU3/zoAmU="
+							},
+							"font": "Arial;13;0",
+							"left": 968,
+							"top": 664,
+							"width": 70.708984375,
+							"height": 38,
+							"text": "entrar a container?"
 						}
 					]
 				},
